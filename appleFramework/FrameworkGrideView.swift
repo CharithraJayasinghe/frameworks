@@ -25,7 +25,7 @@ struct FrameworkGrideView: View {
                     }
                 }
             .navigationTitle(" 🍅 Frameworks ")
-            .sheet(isPresented: $viewModel.isShowingDetailView){
+            .fullScreenCover(isPresented: $viewModel.isShowingDetailView){
                 FrameworkDetailView(framework:viewModel.selectedFramework!,
                                     isShowingDetailView:
                                         $viewModel.isShowingDetailView)

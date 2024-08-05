@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		007F77E22C6068850089CD9D /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007F77E12C6068850089CD9D /* SafariView.swift */; };
 		00A1FCD12C5F434A007D81EC /* appleFrameworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1FCD02C5F434A007D81EC /* appleFrameworkApp.swift */; };
 		00A1FCD52C5F434B007D81EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A1FCD42C5F434B007D81EC /* Assets.xcassets */; };
 		00A1FCD82C5F434B007D81EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A1FCD72C5F434B007D81EC /* Preview Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		007F77E12C6068850089CD9D /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		00A1FCCD2C5F434A007D81EC /* appleFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appleFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A1FCD02C5F434A007D81EC /* appleFrameworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appleFrameworkApp.swift; sourceTree = "<group>"; };
 		00A1FCD42C5F434B007D81EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				00A1FD062C5F9ED7007D81EC /* FrameworkGridViewModel.swift */,
 				00A1FD022C5F8E26007D81EC /* FrameworkDetailView.swift */,
 				00A1FD042C5F938D007D81EC /* AFButton.swift */,
+				007F77E12C6068850089CD9D /* SafariView.swift */,
 				00A1FCFC2C5F4CE1007D81EC /* Framework.swift */,
 				00A1FCFE2C5F4E3D007D81EC /* FrameworkGrideView.swift */,
 				00A1FCD42C5F434B007D81EC /* Assets.xcassets */,
@@ -275,6 +278,7 @@
 				00A1FD052C5F938D007D81EC /* AFButton.swift in Sources */,
 				00A1FCFF2C5F4E3D007D81EC /* FrameworkGrideView.swift in Sources */,
 				00A1FD072C5F9ED7007D81EC /* FrameworkGridViewModel.swift in Sources */,
+				007F77E22C6068850089CD9D /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
